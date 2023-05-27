@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mezuniyet Projesi</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="main_container">
+	<div class="header">
+    	<div id="logo"><a href="#"><img src="images/logo.png" alt="" title="" width="162" height="54" border="0" /></a></div>
+    
+    	<div class="right_header">
+        	
+            <div class="top_menu">
+            
+            </div>
+        
+            <div id="menu">
+                <ul>                                              
+                  <li><a href="Default.aspx" title="">Anasayfa</a></li>
+                  <li><a href="iletisim.aspx" title="">İletişim</a></li>
+                  <li><a href="yonetim.aspx" title="">Yönetim</a></li>
+              </ul>
+            </div>
+        
+        </div>
+    
+    </div>
+    
+    
+    <div class="pattern_bg">
+    
+    	<div class="pattern_box">
+            <div class="pattern_box_icon"><img src="images/icon1.png" alt="" title="" width="70" height="112" /></div>
+            <div class="pattern_content">
+            <h1>Anlaşmalı <span class="blue">Eczaneler</span></h1>
+            <p class="pat">
+            Size en yakın, anlaşmalı olduğumuz araç servisi ve sağlık kuruluşlarını hasta danışmanınızdan öğreniniz.
+            </p>
+            </div>
+        </div>
+        
+        
+    	<div class="pattern_box">
+            <div class="pattern_box_icon"><img src="images/icon2.png" alt="" title="" width="70" height="112" /></div>
+            <div class="pattern_content">
+            <h1>Anlaşmalı <span class="blue"> Kurumlar</span></h1>
+            <p class="pat">
+            Hastanemiz birçok farklı sektörden kurumlarla işbirlikleri yapmaya devam ediyor. </p>
+          </div>
+        </div>        
+        
+    
+    &nbsp;</div>
+    
+    <div id="main_content">
+          <div class="clear">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <img src="images/anasayfa_gorseli.jpg" />
+              </asp:ContentPlaceHolder>
+          </div>    
+       </div>     
+            
+            
+  <div id="footer">
+     	<div class="copyright">
+        <img src="images/footer_logo.gif" alt="" title="" />
+        </div>
+        <div class="center_footer">&copy; 2023. Tüm Hakları Saklıdır</div>
+  </div>
+</div>
+    </div>
+    </form>
+</body>
+</html>
