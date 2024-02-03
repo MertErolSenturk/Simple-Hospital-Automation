@@ -1,11 +1,10 @@
-### Hastane Otomasyonu
+### Hospital Automation
+
+HTML - CSS - C# - ASP.NET and ACCESS Database Technologies Used
 
 
-HTML - CSS - C# - ASP.NET Ve ACCESS VeriTabanı Teknolojileri Kullanılmıştır.
 
-
-
-Bu projemde yöneticiler sisteme giriş yapabilir. Giriş yaptıktan sonra hasta isimlerini listeleyebilir , güncelleyebilir , silebilir ve yeni yönetici kaydı yapabilir.
+In this project, administrators can log in to the system. After logging in, the patient can list, update, delete patient names and register as a new administrator.
 
 
 
